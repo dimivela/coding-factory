@@ -20,7 +20,7 @@ public class Scoping {
     public static int div(int a, int b) {
         int result = 0;
 
-        if (b == 0) {
+        if (b==0) {
             boolean isZero = true;
             System.out.println("Is zero: " + isZero);
             return result;
