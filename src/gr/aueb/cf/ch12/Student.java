@@ -14,6 +14,7 @@ public class Student {
 
     //Default Constractor
     public Student() {
+        studentsCount++;
     }
 
     //Overloaded Constractor
@@ -21,6 +22,7 @@ public class Student {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
+        studentsCount++;
     }
 
     public static int getStudentsCount() {
